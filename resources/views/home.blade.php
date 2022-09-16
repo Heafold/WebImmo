@@ -21,6 +21,9 @@
                 <li>
                     <a class="inline-block py-3 px-2" href="{{ route('show')}}">Parcourir</a>
                 </li>
+                <li>
+                    <a class="inline-block py-3 px-2" href="{{ route('create')}}">Publier</a>
+                </li>
             </ul>
         </div>
     </header>
