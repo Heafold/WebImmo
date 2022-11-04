@@ -20,3 +20,4 @@ Route::get('/', [HomeController::class, 'index'])->name('home');
 Route::get('/parcourir', [PropertyController::class, 'index'])->name('show');
 
 Route::get('/create', [PropertyController::class, 'create'])->name('create');
+
